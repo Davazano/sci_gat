@@ -5,6 +5,6 @@ MAINTAINER David E Oguche
 RUN apt-get update
 RUN apt-get install -y git build-essential
 #
-RUN git clone git://github.com/Davazano/sci_gate
+RUN git clone git://github.com/Davazano/sci_gat
 WORKDIR sci_gate
-RUN echo "Image is ready"
+RUN cat README.md
